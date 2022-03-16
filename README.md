@@ -25,8 +25,7 @@ https://fluidssh.com
 Copy this code & paste in your vps terminal
 
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/dopzone/ssh-vpn-slowdns
-/main/install.sh && chmod +x install.sh && screen -S setup ./install.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/dopzone/ssh-vpn-slowdns/main/install.sh && chmod +x install.sh && screen -S setup ./install.sh
 ```
 
 ## About
