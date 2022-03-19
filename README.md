@@ -53,9 +53,9 @@ you can change settings as you want
 - SS-OBFS TLS : 2443-2543
 - SS-OBFS HTTP : 3443-3543
 - Vmess TLS : 8443
-- Vmess None TLS : 80
+- Vmess None TLS : 2082
 - Vless TLS : 8443
-- Vless None TLS : 80
+- Vless None TLS : 2082
 - Trojan : 2083
 - Websocket TLS : 443
 - Websocket None TLS : 8880
@@ -65,6 +65,7 @@ you can change settings as you want
 - OHP OpenVPN : 8383
 - Trojan Go : 2087
 - Slowdns : 53
+- Socks5 : 7890
 - Cloudfront HTTP : 80 (Need AWS account)
 - Cloudfront SSL : 443  (Need AWS account)
 
